@@ -53,15 +53,15 @@ QT: 5.15.2
 
 ### 展示
 
-![stm32-main](.\document\image\stm32-main.jpg)
+![stm32-main](document\image\stm32-main.jpg)
 
-![ui-state](.\document\image\ui-state.png)
+![ui-state](document\image\ui-state.png)
 
-![ui-setting](.\document\image\ui-setting.png)
+![ui-setting](document\image\ui-setting.png)
 
-![ui-relay](.\document\image\ui-relay.png)
+![ui-relay](document\image\ui-relay.png)
 
-![ui-log](.\document\image\ui-log.png)
+![ui-log](document\image\ui-log.png)
 
 
 
@@ -116,6 +116,6 @@ QT: 5.15.2
 
 ### 许可证
 
-[![license](https://img.shields.io/github/license/ConstStar/smart-agriculture.svg?style=flat-square)](./LICENSE)
+[![license](https://img.shields.io/github/license/ConstStar/smart-agriculture.svg?style=flat-square)](LICENSE)
 
 使用 Apache 2.0 协议开源，请遵守开源协议。
