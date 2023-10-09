@@ -442,7 +442,7 @@ void MainWindow::updateUiTriggerData(int i)
     ui->tableWidget_trigger->setItem(i,3,new QTableWidgetItem( m_trigger_data[i].name ));
 
     // 触发的继电器
-    ui->tableWidget_trigger->setItem(i,4,new QTableWidgetItem( m_relay_name[m_trigger_data[i].relay_id] ));
+    ui->tableWidget_trigger->setItem(i,4,new QTableWidgetItem( m_relay_name[m_trigger_data[i].relay_id]+"【"+tr("继电器")+QString::number(m_trigger_data[i].relay_id)+"】"));
 
     // 比较方式
     ui->tableWidget_trigger->setItem(i,5,new QTableWidgetItem( TRIGGER_COMPARE[m_trigger_data[i].compare] ));
